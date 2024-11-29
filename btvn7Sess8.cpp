@@ -1,14 +1,12 @@
 #include <stdio.h>
 int main() {
-    int n,m,i=0,j,t=0,sum=0;
+    int n,m,i=0,j,sum=0;
     printf("nhap so nguyen: ");
     scanf("%d",&n);
     int arr[n][n];
 	while(i<n){
 		j=0;
         while(j<n){
-            arr[i][j]=t;
-            t++;
             j++;
         }
         i++;
